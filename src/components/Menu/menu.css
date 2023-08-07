@@ -1,6 +1,6 @@
 .title {
-  font-size: 25px;
-  margin-top: 20px;
+  font-size: 22px;
+  margin-top: 25px;
   display: flex;
   justify-content: space-between;
 
@@ -28,12 +28,14 @@
   background-color: #FFA99E;
   border-radius: 8px;
   color: white;
+  font-size: 8px;
 }
 
 .info .far {
   background-color: #848DFF;
   border-radius: 8px;
   color: white;
+  font-size: 8px;
 }
 
 .available {
