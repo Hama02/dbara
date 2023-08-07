@@ -1,0 +1,56 @@
+.title {
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title h1 {
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .chefs {
+  display: flex;
+}
+
+.top .chefs img {
+  height: 30px;
+  margin-left: -7px;
+}
+
+.info .left {
+  background-color: #FFA99E;
+  border-radius: 8px;
+  color: white;
+}
+
+.info .far {
+  background-color: #848DFF;
+  border-radius: 8px;
+  color: white;
+}
+
+.available {
+  position: absolute;
+  font-weight: bold;
+  background: white;
+  padding: 1px 8px;
+  top: 23px;
+  font-size: 11px;
+}
+
+.ratings {
+  position: absolute;
+  font-weight: bold;
+  font-size: 11px;
+  background: white;
+  padding: 1px 8px;
+  top: 23px;
+  right: 23px;
+}
