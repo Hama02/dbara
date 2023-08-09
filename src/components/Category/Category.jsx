@@ -5,12 +5,12 @@ import "./category.css";
 
 const Category = () => {
   return (
-    <div className="category bg-white px-24 py-7">
-      <div className="title">
-        <h1>Category</h1>
+    <div className="category bg-white container mx-auto">
+      <div className="title items-center justify-between flex pl-2">
+        <h1 className="font-bold text-sky-900">Category</h1>
         <h1>See all(12)</h1>
       </div>
-      <div className="cards mt-7 flex flex-wrap gap-10">
+      <div className="cards p-10 flex flex-wrap gap-10">
         <div className="card1 category-item w-60 rounded-md overflow-hidden h-40 cursor-pointer relative">
           <img src={Entree} alt="" />
           <h2 className="">Entree</h2>

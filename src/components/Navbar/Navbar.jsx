@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 const Navbar = () => {
   return (
@@ -6,16 +7,17 @@ const Navbar = () => {
         <a href="https://flowbite.com/" className="flex items-center">
           <img src={Logo} className="h-8 mr-3" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap">
-            Dbara
+            DBARA
           </span>
         </a>
         <div className="flex md:order-2">
-          <button
+          <Link
+            to="/login"
             type="button"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Login
-          </button>
+          </Link>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -49,24 +51,33 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-black"
+                className="block py-2 pl-3 pr-4 text-black hover:text-sky-400/100 duration-300"
                 aria-current="page"
               >
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 pl-3 pr-4 text-black">
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-black hover:text-sky-400/100 duration-300"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 pl-3 pr-4 text-black">
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-black hover:text-sky-400/100 duration-300"
+              >
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 pl-3 pr-4 text-black">
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-black hover:text-sky-400/100 duration-300"
+              >
                 Contact
               </a>
             </li>
